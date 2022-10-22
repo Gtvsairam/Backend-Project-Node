@@ -4,6 +4,6 @@ const storeData = require("../Controllers/data");
 
 const routerData = express.Router();
 
-routerData.route("/Content")
+routerData.route("/home")
 .get(storeData.apicontroller);
 module.exports = routerData;
